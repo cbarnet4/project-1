@@ -1,9 +1,21 @@
 // jshint esversion: 6
 
-let arrAvg = function(array) {
+//Req. 3-B
+let arrAvg = function(avg) {
   result = 0;
-  for (let i = 0; i < array.length; i++) {
-      result += array[i];
+  for (let i = 0; i < avg.length; i++) {
+      result += avg[i];
   }
-return result / array.length;
+return result / avg.length;
+};
+
+//Req. 3-C
+let arrMax = function(max) {
+  maxResult = 0;
+
+    max.forEach(function(max) {
+      if(maxResult < max)
+      maxResult = max;
+});
+return maxResult;
 };
