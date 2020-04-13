@@ -10,3 +10,7 @@
 - JavaScript ES6+ features
 
 - One thing that I learned while doing this project is how to create directories in Unix, and then navigate to them.
+
+![GitGub Octocat](images/github.png)
+
+[My UOregon Site](https://pages.uoregon.edu/cbarnet4/281/)
